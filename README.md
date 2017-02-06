@@ -29,5 +29,7 @@ Then I used this command:
 (head -n 1 Maize_genotypes.txt && tail -n +1 Maize_genotypes.txt| sort -n -k 1) > Sorted_Maize_genos.txt
 to sort everything inside of the txt files without sorting through the header to yield a sorted genotype file. 
 
-I did this process for both Maize and Teosinte and then I used AWK to extract data and recombine a new column into the file to represent the chromosome number for each SNP. 
+I did this process for both Maize and Teosinte and then I used AWK to transpose the genotypes and recombine a new column into the file.
+
+Then I used join to join my genotype files with the chromosome number and bp location for each SNP. 
 
