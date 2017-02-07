@@ -1,4 +1,4 @@
-SNP_ID cdv_marker_id Chromosome Position
+Sample_ID cdv_marker_id Chromosome Position
 abph1.20 5976 2 27403404
 abph1.22 5978 2 27403892
 ae1.3 6605 5 167889790
