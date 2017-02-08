@@ -1,11 +1,16 @@
 <<<<<<< HEAD
 #Readme for workflow of Unix assignment
+#This document contains the step by step protocol that Joe Webb followed to analyze this SNP data and orient it to a file structure following this format:
+
+Column 1 = SNP ID
+Coulmn 2 = Chromosome Number
+Column 3 = Base Pair Position
+Column 4..N = Genetic Data for each subject. 
 
 First I used mkdir to create this Git repository
 Then I used cd to move into it and I used touch to create this document
 Then I used nano to edit this document
 
-Then
 =======
 # Git
 >>>>>>> 2fe619d293b2e6c28505d5d7470d3f3bee9e732c
@@ -56,3 +61,6 @@ Then I used git commit to write myself a message that I was adding everything ba
 
 Then I used the git push origin master command to push it all to my repository on github.
 
+Finally, I realized that for the Teosite data had an extra column, so I used awk to remove the column. 
+
+Then I re ran git and uploaded my final project.
