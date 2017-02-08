@@ -48,7 +48,7 @@ In the dashes folder I used a sed command (sed -ie 's/\?/\-/g') to replace all q
 
 Then I repeated this process for Maize after completing it for Teosinte.
 
-Then I used grep to pull out each cromosome and generate new files in an orderly manner.
+Then I used awk to pull out each cromosome and generate new files in an orderly manner with the code ( awk '$2 == 2 { print $0 }' Test_join.txt > Sample_Chr2.txt).
 
 Then I used the git add . command to add everything to the git que.
 
